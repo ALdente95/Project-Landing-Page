@@ -40,7 +40,7 @@ ul {
     padding: 32px;
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 50px;
 }
 
 .below-header {
@@ -48,6 +48,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: left;
+    margin-bottom: 60px;
 }
 
 .header-title {
@@ -61,21 +62,30 @@ ul {
     width: 400px;
     height: auto;
     display: flex;
-    margin-bottom: 64px;
     border: none;
+    margin-top: 44px;
+    margin-bottom: 60px;
 }
 
-button {
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
     background-color: #3882F6;
     color: white;
     border-radius: 7px;
     max-width: 120px;
     font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    display: inline;
 }
 
 .sec-text {
     color: #E5E7EB;
     font-size: 18px;
+    max-width: 450px;
 }
 
 .body-title {
@@ -166,9 +176,19 @@ button {
 .footer-text {
     font-size: 12px;
 }
-.button-two {
+a.button-two {
     display: flex;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
     border: 2px solid white;
+    color: white;
+    border-radius: 7px;
+    max-width: 120px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
 }
 
 /*Footer - bottom most container*/
